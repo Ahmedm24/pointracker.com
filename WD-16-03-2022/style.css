@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+@font-face {
+    font-family: poppinsRegular;
+    src: url(Poppins/Poppins-Regular.ttf);
+}
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.img-logo{
+    width: 130px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+    height: 60px;
+    box-shadow: 1px -2px 14px 0px black;
+}
+
+.navbar > ul{
+    display: flex;
+}
+
+.navbar > ul > li{
+    padding: 15px;
+}
+.navbar > ul > li > a{
+    color: black;
+}
+
+
+
+.banner{
+    height: 520px;
+    background: linear-gradient(rgba(0, 0, 0.15, 0.15),rgba(0, 0, 0, 0.25)),url("pics/banner-img.jpg");
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .banner-content{
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+.banner-content h1{
+    font-size: 50px;
+}
+
+.banner-content p{
+    font-size: 26px;
+}
+
+
+.banner-content .fa-brands{
+    font-size: 20px;
+}
+
+.about-section{
+    padding: 60px 100px;
+}
+
+.about-section h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.about-section .card-container{
+    display: flex;
+    margin-top: 20px;
+    /* box-sizing: border-box; */
+}
+
+.card-container .card{
+    text-align: center;
+    margin: 20px;
+}
+.card-container .card-1{
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    /* line-height: ; */
+    font-weight: 200px;
+}
+.card-container .card-2{
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.card-container .card p{
+    font-size: 20px;
+}
+
+
+.card-container .card h5{
+    font-size: 40px;
+}
+.card-container .card-1 h5{
+    font-size: 40px;
+}
+.card-container .card-2 h5{
+    font-size: 40px;
+}
+
+.card .card-icon{
+    font-size: 2.5em;
+    color: green;
+}
+.card-2 .fa-heart{
+    font-size: 2.5em;
+    color: black;
+}
+.card-1 .fa-address-book{
+    font-size: 2.5em;
+    color: red;
+}
+
+
+.address-section{
+    background-color: rgba(217, 217, 212, 0.449);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px ;
+}
+
+.address-section p ,.address-section h4{
+    color: #000;
+}
+
+.address-section .address-center{
+    border-left: 1px solid #000;
+    padding-left: 52px;
+}
+.doto{
+    float: left;
+    margin-top: 5px;
+    margin-left: -23px
+}
+.colo{
+    float: left;
+    margin-top: 4px;
+    margin-left: -26px;
+}
+.arro{
+    float: left;
+    margin-top: 8px;
+    margin-left: -26px;
+}
+.sec-btn{
+    color: #000;
+    border: 2px solid black;
+    border-radius: 18px;
+    padding: 11px;
+    text-decoration: none;
+}
+
+.sec-btn:hover{
+    background: #fff;
+}
+/* .timing{
+   
+        background-color: #fff;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 50px ;
+   
+} */
+
+.tim-main-container{
+    background-color: rgba(220, 220, 220, 0.946);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px ;
+    display: flex;
+}
+
+.sec-time{
+background-color: #fff;
+padding: 52px;
+padding-left: 94px;
+border-radius: 10px;
+margin-right: 250px;
+text-align: left;
+}
+.sec-time h4{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    transform: translate(-20px,-6px);
+}
+.sec-time img{
+    float: center
+;
+    
+    margin-top: 5px;
+    margin-left: -23px
+}
+.sec-time .fa-location-dot {
+    float: left;
+    
+    margin-top: 5px;
+    margin-left: -23px
+}
+.sec-time .fa-location-arrow {
+    float: left;
+    
+    margin-top: 5px;
+    margin-left: -23px
+}
+.sec2-time{
+    background-color: #CF4946;
+    padding-left: 94px;
+
+}
+.sec2-time .h4{
+    color: #fff;
+    font-weight: lighter;
+    display: table-caption;
+    padding: 8px;
+    padding-inline: 78px;
+    text-align: center;
+    margin-right: -46PX;
+    transform: translate(-72px, -1px);
+    border-bottom: 1px solid;
+}
+
+/* chutiyap */
+.img-section{
+    padding: 60px 100px;
+}
+
+.img-section h2{
+    font-size: 2.2em;
+    text-align: center;
+    font-weight: normal;
+}
+
+.img-section .m-sec{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.img-section .firstimg-sec{
+    text-align: center;
+    margin: 20px;
+}
+.img-section .secondimg-sec{
+    text-align: center;
+    margin: 20px;
+}
+.img-section .threeimg-sec{
+    text-align: center;
+    margin: 20px;
+}
+
+
+.img-section .firstimg-sec h5{
+    font-size: 1.5em;
+}
+.img-section .secondimg-sec h5{
+    font-size: 1.5em;
+}
+.img-section .threeimg-sec h5{
+    font-size: 1.2em;
+}
+.i4img{
+    width: 380px;
+}
+.img-section .firstimg-sec .fa-calendar,.fa-location-dot,.fa-location-arrow{
+    float: left;
+
+}
+.img-section .secondimg-sec .fa-calendar,.fa-location-dot,.fa-location-arrow{
+    float: left;
+
+}
+.img-section .threeimg-sec .fa-calendar,.fa-location-dot,.fa-location-arrow{
+    float: left;
+
+}
+footer a{
+ align-items: center;
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ color: #fff;
+ text-decoration: none;
+
+
+}
+footer{
+    background: rgb(21, 21, 21);
+}
+footer .fa-facebook-square{
+        /* padding-left: 247px; */
+        transform: translate(178px, 26px);
+        color: blue;
+}
+footer .fa-instagram{
+       /* padding-left: 443px; */
+       transform: translate(179px, 25px);
+       color: blueviolet;
+}
+footer .fa-twitter{
+        /* padding-left: 108px; */
+        transform: translate(159px, 26px);
+        color: blue;
+    
+}
+footer .papo{
+    align-content: center;;
+    display: flex;
+    justify-content: center;
+    padding-top: 17px;
+    color: #fff;
+}
+
+.new1{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.ok{
+    position: absolute;
+    margin-top: 45px;
+    padding: 21px 35px;
+    bottom: -121px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fc153b;
+    border: 1px solid #fc153b;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 900;
+    z-index: 0;
+    border-radius: 15px;
+}
+.loru{
+    height: 57px;
+    width: 95px;
+    transform: translate(-29px,1px);
+}
+#vanta-canva{
+    position: absolute;
+    z-index: 0;
+    top: 61px;
+    left: 0px;
+    width: 1349px;
+    height: 518px;
+}
+.ok:hover{
+    background: #fff;
+    color: #000;
+}
